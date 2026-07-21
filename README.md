@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Giridhar — practical developer tools and open-source work" width="100%" />
+  <img src="./assets/header.gif" alt="Giridhar — practical developer tools and open-source work" width="100%" />
 </p>
 
 <p align="center">
