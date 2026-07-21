@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Pavan G — practical developer tools and open-source work" width="100%" />
+  <img src="./assets/header.svg" alt="Giridhar — practical developer tools and open-source work" width="100%" />
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Open%20source-111827?style=flat-square&logo=github&logoColor=white" alt="Open source" />
 </p>
 
-I like taking awkward, real-world problems—legacy GPU crashes, browser-extension persistence, brittle validation paths—and turning them into small tools or focused upstream fixes.
+I’m **Giridhar**. I like taking awkward, real-world problems—legacy GPU crashes, browser-extension persistence, brittle validation paths—and turning them into small tools or focused upstream fixes.
 
 I came to software from electrical engineering, so my instinct is to reproduce, isolate, and measure before rewriting anything.
 
