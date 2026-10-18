@@ -1,0 +1,69 @@
+name: Refresh profile
+
+# Rebuilds README.md and the two Remotion banners from live GitHub data.
+on:
+  schedule:
+    - cron: "17 3 * * 1" # weekly, Monday 03:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - README.template.md
+      - profile.config.json
+      - scripts/**
+      - banners/**
+      - package.json
+      - .github/workflows/refresh.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch live data and regenerate README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run -s data
+
+      # Scheduled runs only re-render when the banner data changed; manual and push runs always do.
+      - name: Decide whether the banners need re-rendering
+        id: banners
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ] || ! git diff --quiet -- data/hero-props.json data/upstream-props.json; then
+            echo "render=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Render Remotion banners
+        if: steps.banners.outputs.render == 'true'
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npx remotion browser ensure
+          npm run -s banners
+
+      - name: Commit changes
+        run: |
+          git add README.md data/hero-props.json data/upstream-props.json assets/hero.webp assets/upstream.webp
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh profile from live GitHub data"
+          git push

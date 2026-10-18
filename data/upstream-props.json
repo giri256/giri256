@@ -1,0 +1,56 @@
+{
+  "cards": [
+    {
+      "repo": "syncthing/syncthing",
+      "number": 10815,
+      "title": "fix(gui): improve header and button color contrast (fixes #10488)",
+      "mergedAt": "2026-09-22",
+      "additions": 63,
+      "deletions": 10,
+      "language": "Go",
+      "avatar": "orgs/syncthing.png"
+    },
+    {
+      "repo": "rclone/rclone",
+      "number": 9649,
+      "title": "lsf: document Google Drive shortcut IDs",
+      "mergedAt": "2026-07-24",
+      "additions": 10,
+      "deletions": 0,
+      "language": "Go",
+      "avatar": "orgs/rclone.png"
+    },
+    {
+      "repo": "agno-agi/agno",
+      "number": 9078,
+      "title": "fix: Expose FileTools directory parameter",
+      "mergedAt": "2026-07-21",
+      "additions": 135,
+      "deletions": 33,
+      "language": "Python",
+      "avatar": "orgs/agno-agi.png"
+    },
+    {
+      "repo": "super-productivity/super-productivity",
+      "number": 9183,
+      "title": "test: reset global dialog state between specs",
+      "mergedAt": "2026-07-21",
+      "additions": 13,
+      "deletions": 0,
+      "language": "TypeScript",
+      "avatar": "orgs/super-productivity.png"
+    },
+    {
+      "repo": "qmk/qmk_firmware",
+      "number": 26356,
+      "title": "Fix ChibiOS virtual serial short packet receive",
+      "mergedAt": "2026-08-13",
+      "additions": 64,
+      "deletions": 6,
+      "language": "C",
+      "avatar": "orgs/qmk.png"
+    }
+  ],
+  "moreMerged": 17,
+  "moreOrgs": 13
+}

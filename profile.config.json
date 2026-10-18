@@ -1,0 +1,118 @@
+{
+  "login": "giri256",
+  "name": "Giridhar",
+  "role": "Systems & developer-tools engineer",
+  "tagline": "I build tools that fix real problems.",
+
+  "projects": {
+    "pinned": [],
+    "exclude": ["giri256", "tg-email-probe", "qemu_fixed2", "sandhyavandanam", "blender-hd4000-crash-report"],
+    "maxAgeMonths": 18,
+    "minReadmeBytes": 1500,
+    "bannerCount": 5,
+    "tableCount": 8,
+    "minStarsToShow": 5,
+    "notes": {
+      "reddit-native-mcp": {
+        "stack": ["Python", "MCP"],
+        "tagline": "Whole Reddit threads for AI agents. No API keys.",
+        "metric": "191-comment thread in 2.2 s",
+        "accent": "#ff6a3d",
+        "what": "MCP server that gives AI agents whole Reddit threads, including every collapsed reply. No API key needed.",
+        "result": "Fetches a full 191-comment thread in **2.2 s**; cached repeats in **40 ms**"
+      },
+      "secure-klipper": {
+        "stack": ["C++", "Qt6", "libsodium"],
+        "tagline": "Encrypted clipboard history for KDE Plasma.",
+        "metric": "Newest 5 readable, the rest Argon2id-encrypted",
+        "accent": "#58a6ff",
+        "what": "Fork of KDE Plasma's clipboard manager. Only the newest entries stay readable; older ones are encrypted on disk with Argon2id and a password.",
+        "result": "Works on Plasma 6.7; covered by tests"
+      },
+      "thermal-guard": {
+        "stack": ["Python", "systemd", "i915"],
+        "tagline": "Stops old Intel laptops freezing from heat.",
+        "metric": "Froze at 104 °C → stable below 92 °C",
+        "accent": "#f0883e",
+        "what": "Software thermal throttle for old Intel laptops that overheat until they freeze. Lowers the i915 GPU clock step by step as temperature rises.",
+        "result": "Under a GPU stress test, the laptop froze at **104 °C** with no guard. With thermal-guard it ran the full 80 s, mostly **below 92 °C**"
+      },
+      "yt-curated-feed": {
+        "title": "YT Curated Feed",
+        "stack": ["JavaScript", "Manifest V3"],
+        "tagline": "YouTube with only the channels you chose.",
+        "metric": "0 dependencies · 0 servers · 0 tracking",
+        "accent": "#ff3447",
+        "what": "Replaces the YouTube homepage with only the channels you chose. Hides Shorts, autoplay and recommendations.",
+        "result": "Zero dependencies, no servers, no tracking"
+      },
+      "statsify": {
+        "title": "Statsify",
+        "stack": ["TypeScript", "Chrome extension", "SQLite"],
+        "tagline": "Private Spotify listening stats.",
+        "metric": "Local-first · web + desktop companion",
+        "accent": "#1ed760",
+        "what": "Private Spotify listening stats, with an optional desktop companion app.",
+        "result": "All data stays on the device"
+      },
+      "windows-virtual-monitor-loopback": {
+        "stack": ["C++", "D3D11", "Win32"],
+        "tagline": "View a virtual monitor locally, GPU to GPU.",
+        "metric": "No VM, no network, no encoder",
+        "accent": "#a371f7",
+        "what": "Shows a virtual monitor in a window on the same PC, with input forwarding. Uses Windows Graphics Capture and keeps frames on the GPU.",
+        "result": "No VM, network or video encoder involved"
+      },
+      "firefox-extension-sideload": {
+        "title": "Persistent XPI Toolkit",
+        "stack": ["Firefox source patch", "Python"],
+        "tagline": "Keep unsigned extensions installed in release Firefox.",
+        "metric": "Verified across browser restarts",
+        "accent": "#ff9500",
+        "what": "Source patch and verifier that keep unsigned WebExtensions installed in normal Firefox release builds.",
+        "result": "Verified across browser restarts"
+      },
+      "claude-continue": {
+        "stack": ["JavaScript", "Manifest V3"],
+        "tagline": "Resumes a Claude chat the moment its limit resets.",
+        "accent": "#d97757"
+      }
+    }
+  },
+
+  "upstream": {
+    "exclude": [],
+    "bannerCount": 5,
+    "establishedStars": 5000,
+    "establishedYears": 2,
+    "perDomain": 6,
+    "inReviewMax": 20
+  },
+
+  "domains": [
+    {
+      "id": "ai",
+      "label": "AI-agent tooling · MCP",
+      "color": "#a371f7",
+      "match": "\\bmcp\\b|model context protocol|agent|llm|ghidra|reverse.engineer|vllm|transformers|code.review"
+    },
+    {
+      "id": "embedded",
+      "label": "Embedded & hardware tooling",
+      "color": "#f0883e",
+      "match": "arduino|qmk|firmware|micropython|circuitpython|adafruit|blinka|kicad|librepcb|\\bpcb\\b|\\beda\\b|skidl|hidapi|libusb|\\busb\\b|pyocd|cmsis|bootloader|microcontroller|contiki|python-can|controller area network|amaranth|platformio|keyboard"
+    },
+    {
+      "id": "browser",
+      "label": "Browser & extensions",
+      "color": "#58a6ff",
+      "match": "browser|extension|web-ext|webextension|adblock|firefox|chrome|manifest.v3|wordpress|site-kit|youtube"
+    },
+    {
+      "id": "systems",
+      "label": "Linux, systems & developer tooling",
+      "color": "#3fb950",
+      "match": ".*"
+    }
+  ]
+}

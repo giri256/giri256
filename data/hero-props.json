@@ -1,0 +1,77 @@
+{
+  "name": "Giridhar",
+  "login": "giri256",
+  "role": "Systems & developer-tools engineer",
+  "tagline": "I build tools that fix real problems.",
+  "projects": [
+    {
+      "name": "yt-curated-feed",
+      "title": "YT Curated Feed",
+      "tagline": "YouTube with only the channels you chose.",
+      "metric": "0 dependencies · 0 servers · 0 tracking",
+      "stack": [
+        "JavaScript",
+        "Manifest V3"
+      ],
+      "accent": "#ff3447",
+      "stars": null,
+      "image": "projects/yt-curated-feed.png"
+    },
+    {
+      "name": "thermal-guard",
+      "title": "thermal-guard",
+      "tagline": "Stops old Intel laptops freezing from heat.",
+      "metric": "Froze at 104 °C → stable below 92 °C",
+      "stack": [
+        "Python",
+        "systemd",
+        "i915"
+      ],
+      "accent": "#f0883e",
+      "stars": null,
+      "image": "projects/thermal-guard.svg"
+    },
+    {
+      "name": "reddit-native-mcp",
+      "title": "reddit-native-mcp",
+      "tagline": "Whole Reddit threads for AI agents. No API keys.",
+      "metric": "191-comment thread in 2.2 s",
+      "stack": [
+        "Python",
+        "MCP"
+      ],
+      "accent": "#ff6a3d",
+      "stars": null,
+      "image": "projects/reddit-native-mcp.png"
+    },
+    {
+      "name": "secure-klipper",
+      "title": "secure-klipper",
+      "tagline": "Encrypted clipboard history for KDE Plasma.",
+      "metric": "Newest 5 readable, the rest Argon2id-encrypted",
+      "stack": [
+        "C++",
+        "Qt6",
+        "libsodium"
+      ],
+      "accent": "#58a6ff",
+      "stars": null,
+      "image": "projects/secure-klipper.png"
+    },
+    {
+      "name": "statsify",
+      "title": "Statsify",
+      "tagline": "Private Spotify listening stats.",
+      "metric": "Local-first · web + desktop companion",
+      "stack": [
+        "TypeScript",
+        "Chrome extension",
+        "SQLite"
+      ],
+      "accent": "#1ed760",
+      "stars": null,
+      "image": "projects/statsify.png"
+    }
+  ],
+  "moreProjects": 3
+}
