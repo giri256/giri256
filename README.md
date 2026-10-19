@@ -35,10 +35,10 @@
 ## Merged upstream
 
 <p align="center">
-  <img src="./assets/upstream.webp" alt="Merged pull requests in syncthing/syncthing #10815, rclone/rclone #9649, agno-agi/agno #9078, super-productivity/super-productivity #9183, qmk/qmk_firmware #26356, plus 17 more." width="100%" />
+  <img src="./assets/upstream.webp" alt="Merged pull requests in syncthing/syncthing #10815, rclone/rclone #9648, agno-agi/agno #9078, super-productivity/super-productivity #9183, qmk/qmk_firmware #26356, plus 18 more." width="100%" />
 </p>
 
-**22 merged pull requests across 18 organizations.** The banner shows the 5 most widely used projects I've had a fix merged into, one PR each. 9 of the projects with a merged fix are established (5k+ stars and 2+ years old).
+**23 merged pull requests across 18 organizations.** The banner shows the 5 most widely used projects I've had a fix merged into, one PR each. 9 of the projects with a merged fix are established (5k+ stars and 2+ years old).
 
 <sub>Counts only merged PRs to repositories I don't own that are not forks. Those projects' popularity belongs to their maintainers; my part is the linked PR.</sub>
 
@@ -66,17 +66,18 @@
 
 </details>
 
-**Linux, systems & developer tooling** <sub>(9 merged)</sub>
+**Linux, systems & developer tooling** <sub>(10 merged)</sub>
 
+- [rclone/rclone #9648](https://github.com/rclone/rclone/pull/9648): http: add metadata defaults for --http-no-head
 - [syncthing/syncthing #10815](https://github.com/syncthing/syncthing/pull/10815): fix(gui): improve header and button color contrast (fixes #10488)
 - [bootandy/dust #589](https://github.com/bootandy/dust/pull/589): Ignore empty path inputs
 - [pypa/pipx #1981](https://github.com/pypa/pipx/pull/1981): Fix Release Notes project URL
 - [python/typeshed #16097](https://github.com/python/typeshed/pull/16097): Improve lib2to3 future_features annotation
 - [rclone/rclone #9649](https://github.com/rclone/rclone/pull/9649): lsf: document Google Drive shortcut IDs
+
+<details><summary>4 more</summary>
+
 - [super-productivity/super-productivity #9183](https://github.com/super-productivity/super-productivity/pull/9183): test: reset global dialog state between specs
-
-<details><summary>3 more</summary>
-
 - [kernelci/kernelci-core #3166](https://github.com/kernelci/kernelci-core/pull/3166): runtime: raise TemplateRuntimeError from kci_raise
 - [HeadshotInteractive/listening-stats #64](https://github.com/HeadshotInteractive/listening-stats/pull/64): Fix Windows installer temporary cleanup
 - [Boeing/config-file-validator #602](https://github.com/Boeing/config-file-validator/pull/602): feat(yamlfmt): add compact sequence indentation option
@@ -84,13 +85,12 @@
 </details>
 
 <details>
-<summary><b>27 pull requests in review</b> at rust-lang, spf13, arduino, prompt-toolkit, rclone, micropython and more</summary>
+<summary><b>26 pull requests in review</b> at rust-lang, spf13, arduino, prompt-toolkit, micropython, rclone and more</summary>
 
 - [rust-lang/mdBook #3169](https://github.com/rust-lang/mdBook/pull/3169): Fix print output inheriting screen theme colors
 - [spf13/cobra #2466](https://github.com/spf13/cobra/pull/2466): Fix required Bash flag completion
 - [arduino/arduino-cli #3254](https://github.com/arduino/arduino-cli/pull/3254): compile: preserve existing profile in dump
 - [prompt-toolkit/python-prompt-toolkit #2083](https://github.com/prompt-toolkit/python-prompt-toolkit/pull/2083): Fix redo after custom undo bindings
-- [rclone/rclone #9648](https://github.com/rclone/rclone/pull/9648): http: add metadata defaults for --http-no-head
 - [micropython/micropython #19504](https://github.com/micropython/micropython/pull/19504): ports/esp32: Treat Pin mode -1 as unchanged.
 - [rclone/rclone #9645](https://github.com/rclone/rclone/pull/9645): filter: fix directory filters for brace path alternatives - fixes #3250
 - [elastic/kibana #279376](https://github.com/elastic/kibana/pull/279376): \[Security Solution\] Validate detection rule schedule ranges
@@ -106,6 +106,7 @@
 - [pyocd/pyOCD #2018](https://github.com/pyocd/pyOCD/pull/2018): pack: return error when no devices match
 - [arduino/arduino-language-server #239](https://github.com/arduino/arduino-language-server/pull/239): fix: handle unsupported inlay hint requests
 - [hardbyte/python-can #2081](https://github.com/hardbyte/python-can/pull/2081): Fix Systec error message lookup
+- [mozilla/web-ext #3782](https://github.com/mozilla/web-ext/pull/3782): Expose disabled linter rules
 
 </details>
 
@@ -117,5 +118,5 @@
 - **Say what was and wasn't tested.** Every PR states how it was verified.
 
 <p align="center">
-  <sub>Based in India · 216 contributions in the last 12 months · This page rebuilds itself weekly from live GitHub data (<a href="./scripts/build.mjs">generator</a>, <a href="./banners">Remotion banners</a>) · Last refreshed <!--updated-->2026-10-18</sub>
+  <sub>Based in India · 217 contributions in the last 12 months · This page rebuilds itself weekly from live GitHub data (<a href="./scripts/build.mjs">generator</a>, <a href="./banners">Remotion banners</a>) · Last refreshed <!--updated-->2026-10-19</sub>
 </p>

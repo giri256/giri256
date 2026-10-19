@@ -12,11 +12,11 @@
     },
     {
       "repo": "rclone/rclone",
-      "number": 9649,
-      "title": "lsf: document Google Drive shortcut IDs",
-      "mergedAt": "2026-07-24",
-      "additions": 10,
-      "deletions": 0,
+      "number": 9648,
+      "title": "http: add metadata defaults for --http-no-head",
+      "mergedAt": "2026-10-18",
+      "additions": 86,
+      "deletions": 7,
       "language": "Go",
       "avatar": "orgs/rclone.png"
     },
@@ -51,6 +51,6 @@
       "avatar": "orgs/qmk.png"
     }
   ],
-  "moreMerged": 17,
+  "moreMerged": 18,
   "moreOrgs": 13
 }
