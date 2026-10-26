@@ -29,8 +29,8 @@
 | **[secure-klipper](https://github.com/giri256/secure-klipper)**<br><sub>C++ · Qt6 · libsodium</sub> | Fork of KDE Plasma's clipboard manager. Only the newest entries stay readable; older ones are encrypted on disk with Argon2id and a password. | Works on Plasma 6.7; covered by tests |
 | **[Statsify](https://github.com/giri256/statsify)**<br><sub>TypeScript · Chrome extension · SQLite · [site](https://giri256.github.io/statsify/)</sub> | Private Spotify listening stats, with an optional desktop companion app. | All data stays on the device |
 | **[windows-virtual-monitor-loopback](https://github.com/giri256/windows-virtual-monitor-loopback)**<br><sub>C++ · D3D11 · Win32</sub> | Shows a virtual monitor in a window on the same PC, with input forwarding. Uses Windows Graphics Capture and keeps frames on the GPU. | No VM, network or video encoder involved |
-| **[Persistent XPI Toolkit](https://github.com/giri256/firefox-extension-sideload)**<br><sub>Firefox source patch · Python</sub> | Source patch and verifier that keep unsigned WebExtensions installed in normal Firefox release builds. | Verified across browser restarts |
 | **[claude-continue](https://github.com/giri256/claude-continue)**<br><sub>JavaScript · Manifest V3</sub> | A Chrome Extension that automatically resumes your Claude.ai chats the exact moment your message limit resets. chrome-extension, manifest-v3, claude-ai, automation, productivity, javascript | Updated 2026-07-11 |
+| **[Persistent XPI Toolkit](https://github.com/giri256/firefox-extension-sideload)**<br><sub>Firefox source patch · Python</sub> | Source patch and verifier that keep unsigned WebExtensions installed in normal Firefox release builds. | Verified across browser restarts |
 
 ## Merged upstream
 
@@ -85,8 +85,9 @@
 </details>
 
 <details>
-<summary><b>26 pull requests in review</b> at rust-lang, spf13, arduino, prompt-toolkit, micropython, rclone and more</summary>
+<summary><b>27 pull requests in review</b> at SeleniumHQ, rust-lang, spf13, arduino, prompt-toolkit, micropython and more</summary>
 
+- [SeleniumHQ/selenium #18228](https://github.com/SeleniumHQ/selenium/pull/18228): \[atoms\] Report elements a scroller can bring into view as scrollable
 - [rust-lang/mdBook #3169](https://github.com/rust-lang/mdBook/pull/3169): Fix print output inheriting screen theme colors
 - [spf13/cobra #2466](https://github.com/spf13/cobra/pull/2466): Fix required Bash flag completion
 - [arduino/arduino-cli #3254](https://github.com/arduino/arduino-cli/pull/3254): compile: preserve existing profile in dump
@@ -106,7 +107,6 @@
 - [pyocd/pyOCD #2018](https://github.com/pyocd/pyOCD/pull/2018): pack: return error when no devices match
 - [arduino/arduino-language-server #239](https://github.com/arduino/arduino-language-server/pull/239): fix: handle unsupported inlay hint requests
 - [hardbyte/python-can #2081](https://github.com/hardbyte/python-can/pull/2081): Fix Systec error message lookup
-- [mozilla/web-ext #3782](https://github.com/mozilla/web-ext/pull/3782): Expose disabled linter rules
 
 </details>
 
@@ -118,5 +118,5 @@
 - **Say what was and wasn't tested.** Every PR states how it was verified.
 
 <p align="center">
-  <sub>Based in India · 217 contributions in the last 12 months · This page rebuilds itself weekly from live GitHub data (<a href="./scripts/build.mjs">generator</a>, <a href="./banners">Remotion banners</a>) · Last refreshed <!--updated-->2026-10-19</sub>
+  <sub>Based in India · 227 contributions in the last 12 months · This page rebuilds itself weekly from live GitHub data (<a href="./scripts/build.mjs">generator</a>, <a href="./banners">Remotion banners</a>) · Last refreshed <!--updated-->2026-10-26</sub>
 </p>
