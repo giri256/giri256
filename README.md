@@ -79,13 +79,13 @@
 
 - [super-productivity/super-productivity #9183](https://github.com/super-productivity/super-productivity/pull/9183): test: reset global dialog state between specs
 - [kernelci/kernelci-core #3166](https://github.com/kernelci/kernelci-core/pull/3166): runtime: raise TemplateRuntimeError from kci_raise
-- [HeadshotInteractive/listening-stats #64](https://github.com/HeadshotInteractive/listening-stats/pull/64): Fix Windows installer temporary cleanup
+- [Xndr2/listening-stats #64](https://github.com/Xndr2/listening-stats/pull/64): Fix Windows installer temporary cleanup
 - [Boeing/config-file-validator #602](https://github.com/Boeing/config-file-validator/pull/602): feat(yamlfmt): add compact sequence indentation option
 
 </details>
 
 <details>
-<summary><b>27 pull requests in review</b> at SeleniumHQ, rust-lang, spf13, arduino, prompt-toolkit, micropython and more</summary>
+<summary><b>28 pull requests in review</b> at SeleniumHQ, rust-lang, spf13, arduino, prompt-toolkit, micropython and more</summary>
 
 - [SeleniumHQ/selenium #18228](https://github.com/SeleniumHQ/selenium/pull/18228): \[atoms\] Report elements a scroller can bring into view as scrollable
 - [rust-lang/mdBook #3169](https://github.com/rust-lang/mdBook/pull/3169): Fix print output inheriting screen theme colors
@@ -95,8 +95,9 @@
 - [micropython/micropython #19504](https://github.com/micropython/micropython/pull/19504): ports/esp32: Treat Pin mode -1 as unchanged.
 - [rclone/rclone #9645](https://github.com/rclone/rclone/pull/9645): filter: fix directory filters for brace path alternatives - fixes #3250
 - [elastic/kibana #279376](https://github.com/elastic/kibana/pull/279376): \[Security Solution\] Validate detection rule schedule ranges
+- [pingdotgg/t3code #32163](https://github.com/pingdotgg/t3code/pull/32163): feat(server): agents can move their thread to another folder
+- [pingdotgg/t3code #32006](https://github.com/pingdotgg/t3code/pull/32006): feat(desktop): open folders in T3 Code from Linux file managers
 - [vercel-labs/agent-browser #2097](https://github.com/vercel-labs/agent-browser/pull/2097): fix(cli): explain Playwright-only selectors instead of reporting element not found
-- [vercel-labs/agent-browser #2092](https://github.com/vercel-labs/agent-browser/pull/2092): fix(mcp): don't repeat parsed stdout in structuredContent
 - [vercel-labs/agent-browser #2089](https://github.com/vercel-labs/agent-browser/pull/2089): feat(tabs): identify each tab's browser profile with `tab list --profiles`
 - [abba23/spotify-adblock #213](https://github.com/abba23/spotify-adblock/pull/213): Fall back to built-in default config
 - [abba23/spotify-adblock #212](https://github.com/abba23/spotify-adblock/pull/212): Build into a fixed target directory
@@ -106,7 +107,6 @@
 - [browserpass/browserpass-extension #410](https://github.com/browserpass/browserpass-extension/pull/410): fix: generate RFC-compliant TOTP codes
 - [pyocd/pyOCD #2018](https://github.com/pyocd/pyOCD/pull/2018): pack: return error when no devices match
 - [arduino/arduino-language-server #239](https://github.com/arduino/arduino-language-server/pull/239): fix: handle unsupported inlay hint requests
-- [hardbyte/python-can #2081](https://github.com/hardbyte/python-can/pull/2081): Fix Systec error message lookup
 
 </details>
 
@@ -118,5 +118,5 @@
 - **Say what was and wasn't tested.** Every PR states how it was verified.
 
 <p align="center">
-  <sub>Based in India · 228 contributions in the last 12 months · This page rebuilds itself weekly from live GitHub data (<a href="./scripts/build.mjs">generator</a>, <a href="./banners">Remotion banners</a>) · Last refreshed <!--updated-->2026-11-02</sub>
+  <sub>Based in India · 239 contributions in the last 12 months · This page rebuilds itself weekly from live GitHub data (<a href="./scripts/build.mjs">generator</a>, <a href="./banners">Remotion banners</a>) · Last refreshed <!--updated-->2026-11-09</sub>
 </p>
